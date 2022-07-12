@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Web Fashion</title>
+</head>
+
+<body>
+    <section id="home" class="home-container">
+        <header id="header" class="header">
+            <div class="logo-cadre">
+                <p class="logo">WF</p>
+            </div> 
+            <div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#" data-text="Accueil">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#best-sales" data-text="Catégories">Catégories</a>
+                    </li>
+                    <li>
+                        <a href="#plants" data-text="Nouveautés">Nouveautés</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <input id="searchbar" class="searchbar" onkeyup="Rechercher" type="text"name="search" placeholder="Rechercher ..." size="30"> 
+                <p id="go"><a href="#" class="click"><i class="fas regular fa-search"></i></a></p>
+            </div>
+        </header>
+        
+        <div class="landing">
+            <h1 class="big-title">WebFashion</h1>
+            <a href="#delivery" class="delivery-link">
+                <span class="scroll-text" data-text="Scroll">Scroll</span>
+                <i class="scroll-icon fas fa-angle-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="best-sales" class="best-sales-container">
+        <h1 class="section-title">Catégories</h1>
+        <div class="best-plants">
+            <a href="#" class="plant-box no-grid plant1">
+                <div class="plant-bio">
+                    <h1 class="plant-name"> Femmes</h1>
+                </div>
+            </a>
+            <a href="#" class="plant-box no-grid plant2">
+                <div class="plant-bio">
+                    <h1 class="plant-name">Hommes</h1>
+                </div>
+            </a>
+            <a href="#" class="plant-box no-grid plant3">
+                <div class="plant-bio">
+                    <h1 class="plant-name">Enfants</h1>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="plants" class="plants-container">
+        <h1 class="section-title">Nouveautés</h1>
+        <div class="grid-plants">
+            <a href="#" class="plant-box grid plant-grid1">
+                <div class="plant-bio">
+                    <h1 class="plant-name">Inspirations</h1>
+                </div>
+            </a>
+            <a href="#" class="plant-box grid plant-grid2">
+                <div class="plant-bio">
+                    <h1 class="plant-name">Costumes</h1>
+                </div>
+            </a>
+            <a href="#" class="plant-box grid plant-grid3">
+                <div class="plant-bio">
+                    <h1 class="plant-name"> Sacs et bijoux</h1>
+                </div>
+            </a>
+            <a href="#" class="plant-box grid plant-grid4">
+                
+            </a>
+            <a href="#" class="plant-box grid plant-grid5">
+                <div class="plant-bio">
+                    <h1 class="plant-name">StreetWear</h1>
+                </div>
+            </a>
+            <a href="#" class="plant-box grid plant-grid6">
+                
+            </a>
+        </div>
+    </section>
+    <section id="delivery" class="delivery-container">
+        <div class="shop">
+            <i class="delivery-icon fas fa-store"></i>
+            <p class="box-content">
+                Nos magasins à votre service
+            </p>
+        </div>
+        <div class="withdrawal">
+            <i class="delivery-icon fas fa-people-carry"></i>
+            <p class="box-content">
+                Retrait en magasin 
+            </p>
+        </div>
+        <div class="delivery">
+            <i class="delivery-icon fas fa-truck"></i>
+            <p class="box-content">
+                Livraison à domicile 
+            </p>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <span class="copyrights">&copy; 2022 - Web Fashion</span>
+        <a href="#" class="conditions">Condition générales de vente</a>
+    </footer>
+    
+</body>
+
+</html>
